@@ -16,7 +16,7 @@ const FOODS = [
     { name: "Oreo Milkshake", category: "High Risk", baseScore: 89, cals: 600 }
 ];
 
-export const generateMockHistory = (days = 28) => {
+export const generateMockHistory = (days = 91) => {
     const history = [];
     const now = new Date();
 

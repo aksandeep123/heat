@@ -72,7 +72,7 @@ export default function Dashboard() {
                             <span className="heatmap-label">S</span>
                         </div>
                         <div className="heatmap-grid">
-                            {mockHistory.slice(0, 28).map((day, i) => (
+                            {mockHistory.slice(0, 84).map((day, i) => (
                                 <div 
                                     key={i}
                                     className={`heatmap-cell ${
@@ -84,7 +84,7 @@ export default function Dashboard() {
                             ))}
                         </div>
                     </div>
-                    <p className="text-[10px] text-slate-500 mt-4 text-right italic">Last 28 active windows</p>
+                    <p className="text-[10px] text-slate-500 mt-4 text-right italic">Last 84 active windows</p>
                 </div>
                 
                 <div className="card-panel">
